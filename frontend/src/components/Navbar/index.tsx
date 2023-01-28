@@ -8,9 +8,12 @@ function Navbar() {
     <nav className="navbar navbar-expand-md navbar-dark bg-primary main-nav">
       <div className="container-fluid">
 
-        <Link to="/" className="nav-logo-text">
-          <h4>Carros Top</h4>
-        </Link>
+        <div className='logo-container'>
+          <Link to="/" className="nav-logo-text">
+            <h1>Carros Top</h1>
+          </Link>
+        </div>
+        
 
         <button
             className="navbar-toggler"
@@ -24,7 +27,7 @@ function Navbar() {
                 <span className='navbar-toggler-icon'></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="carrostop">
+        <div className="collapse navbar-collapse list-items" id="carrostop-navbar">
 
             <ul className='navbar-nav offset-md-2 main-menu'>
                 <li>
@@ -37,8 +40,6 @@ function Navbar() {
             </ul>
 
         </div>
-
-
 
       </div>
     </nav>

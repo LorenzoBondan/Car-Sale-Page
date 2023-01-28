@@ -7,7 +7,6 @@ function App() {
   return (
     <>
     <Routes />
-    <h1>hello</h1>
     </>
 
   );

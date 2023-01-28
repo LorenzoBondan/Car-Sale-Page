@@ -1,32 +1,55 @@
 /* barra */
 .main-nav{
     min-height: 70px;
-    padding-left: 40px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-/* logo da barra de navegação (DS Catalog) */
-.nav-logo-text, .nav-logo-text:hover{
-    color: white;
+.logo-container{ /* AUMENTAR ESSA AQUI QUANDO A TELA AUMENTAR */
+    margin-left: 20px;
 }
+
+/* logo da barra de navegação (Carros Top) */
+.nav-logo-text, .nav-logo-text:hover{
+    color: #00285F;
+    text-decoration: none;
+}
+
+.nav-logo-text h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
 
 /* home, catalogo, admin da barra de navegação */
 .main-menu{
     display: flex;
-    font-size: 18px;
-    width: 380px; /* tamanho do início do home até o final do admin */
     justify-content: space-between;
+    font-size: 18px;
+    width: 175px; /* tamanho do início do home até o final do catalogo */
 }
 
 .main-menu a {
-    color: rgba(255,255,255,0.5);
+    color: #00285F;
+    text-decoration: none;
 }
 
+.list-items{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 154px;
+}
+
+
+
 .main-menu a:hover {
-    color: rgb(255,255,255);
+    color: #00285F;
 }
 
 /* quando o está na tela home, é como se ele estivesse selecionado (classe active( */
 .main-menu a.active {
-    color: rgb(255,255,255);
-    font-weight: bold;
+    color: #00285F;
+    font-weight: 700;
 }
