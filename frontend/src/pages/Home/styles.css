@@ -1,0 +1,67 @@
+.home-container{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background: white;
+}
+
+/* ---- topper card */
+
+.topper-card{
+    margin-bottom: 20px;
+    background: #00285F;
+}
+
+.image-zone {
+    padding: 62px 28px;
+}
+
+.text-zone-topper{
+    text-align: center;
+    
+    justify-content: center;
+}
+
+.text-zone-topper h1{
+    color: white;
+    font-size: 22px;
+    margin: 0 10px 13px 10px;
+    font-weight: 700;
+}
+
+.text-zone-topper p{
+    color: white;
+    font-size: 14px;
+    margin: 0 20px 10px 20px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+
+/* ------ bottom card */
+
+.bottom-card{
+    margin-bottom: 20px;
+    background: rgb(237, 237, 237);
+}
+
+.button-zone{
+    height: 67px;
+}
+
+.button-zone button{
+    margin: 28px 63px 55px 63px;
+    height: 40px;
+}
+
+.text-zone-bottom h2 {
+    color: #585858;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px 50px 25px 50px;
+}
+
+.bottom-card{
+    background: white;
+    height: 123px;
+}

@@ -1,6 +1,6 @@
-
+import { ReactComponent as CarImg} from 'assets/images/car-yellow.svg';
+import ButtonIcon from 'components/ButtonIcon';
 import './styles.css';
-import { Link } from 'react-router-dom';
 
 function Home() {
     return (
@@ -8,31 +8,31 @@ function Home() {
         
         <div className="home-container">  
             
-            <div className="base-card home-card">
+            <div className='base-card topper-card'> 
 
-                <div className="home-content-container">
-
-                    <div>
-                        <h1>Conheça o melhor catálogo do curso!</h1>
-                        <p>Ajudaremos você a encontrar os melhores produtos disponíveis no mercado.</p>
-                    </div>
-
-                    <div>
-                        
-                        <div>
-                            <Link to="/products">
-                                <h1>botão aqui</h1>
-                            </Link>
-                        </div>
-
-                    </div>
-                    
+                <div className='image-zone'>
+                    <CarImg />
                 </div>
 
-                <div className="home-image-container">
-                    <h1>imagem aqui</h1>
+                <div className='text-zone-topper'>
+                    <h1>O carro perfeito para você</h1>
+                    <p>Conheça nossos carros e dê mais um passo na realização do seu sonho</p>
                 </div>
+
             </div>
+
+            <div className='base-card bottom-card'>
+
+                <div className='button-zone'>
+                    <ButtonIcon />
+                </div>
+
+                <div className='text-zone-bottom'>
+                    <h2>Comece agora a navegar</h2>
+                </div>
+
+            </div>
+
         </div>
 
       </>
