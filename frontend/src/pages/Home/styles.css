@@ -65,3 +65,46 @@
     background: white;
     height: 123px;
 }
+
+
+/* 576 */
+@media(min-width: 576px){
+
+    .image-zone svg{
+        height: 200px;
+        width: 330px;
+    }
+
+    .text-zone-topper h1{
+        font-size: 36px;
+    }
+
+    .text-zone-topper p{
+        font-size: 18px;
+        width: 400px;
+        margin-left: 80px;
+    }
+
+    .bottom-card{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-zone{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    .button-zone button{
+        margin-right: 16px;
+    }
+
+    .text-zone-bottom h2{
+        width: 200px;
+        margin-left: 0;
+    }
+}

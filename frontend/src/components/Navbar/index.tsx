@@ -14,7 +14,6 @@ function Navbar() {
           </Link>
         </div>
         
-
         <button
             className="navbar-toggler"
             type="button"
@@ -26,6 +25,7 @@ function Navbar() {
             >
                 <span className='navbar-toggler-icon'></span>
         </button>
+        
 
         <div className="collapse navbar-collapse list-items" id="carrostop-navbar">
 
