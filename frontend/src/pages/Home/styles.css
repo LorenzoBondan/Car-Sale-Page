@@ -16,10 +16,12 @@
     padding: 62px 28px;
 }
 
+
 .text-zone-topper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    
-    justify-content: center;
 }
 
 .text-zone-topper h1{
@@ -43,29 +45,24 @@
 .bottom-card{
     margin-bottom: 20px;
     background: rgb(237, 237, 237);
-}
-
-.button-zone{
-    height: 67px;
-}
-
-.button-zone button{
-    margin: 28px 63px 55px 63px;
-    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 123px;
 }
 
 .text-zone-bottom h2 {
     color: #585858;
     font-weight: 400;
     font-size: 18px;
-    margin: 10px 50px 25px 50px;
+    margin: 0;
 }
 
-.bottom-card{
-    background: white;
-    height: 123px;
+.region-btn button{
+    width: 174px;
+    height: 40px;
+    margin-bottom: 13px;
 }
-
 
 /* 576 */
 @media(min-width: 576px){
@@ -82,29 +79,36 @@
     .text-zone-topper p{
         font-size: 18px;
         width: 400px;
-        margin-left: 80px;
     }
+
+    /* ----- */
 
     .bottom-card{
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-around;
+        padding: 65px;
     }
 
-    .button-zone{
+    .region-btn{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 0px;
     }
 
-    .button-zone button{
-        margin-right: 16px;
+    .text-zone-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .text-zone-bottom h2{
-        width: 200px;
-        margin-left: 0;
+        padding-bottom: 10px;
     }
+
+}
+
+@media(min-width: 768px){
+
+
 }

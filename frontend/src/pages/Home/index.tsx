@@ -23,9 +23,11 @@ function Home() {
 
             <div className='base-card bottom-card'>
 
-                <div className='button-zone'>
+                <div className='region-btn'>
                     <ButtonIcon />
                 </div>
+                    
+
 
                 <div className='text-zone-bottom'>
                     <h2>Comece agora a navegar</h2>
