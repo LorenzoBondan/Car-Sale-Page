@@ -1,0 +1,17 @@
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container button{
+    border-radius: 5px;
+    height: 40px;
+    width: 258px;
+}
+
+.btn h6 {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
