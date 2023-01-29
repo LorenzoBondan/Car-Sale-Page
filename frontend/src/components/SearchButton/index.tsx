@@ -4,14 +4,14 @@ import './styles.css';
 function SearchButton() {
   return (
     <>
-      <div className='btn-container'>
+      <div className='btn-search-container'>
 
       <div className="field-search-container">
         <input type="text" placeholder="Digite sua busca" />
       </div>
 
-      <div className="btn-search-container">
-        <button>Buscar</button>
+      <div className="btn-search-container-button">
+        <button>BUSCAR</button>
       </div>
 
       </div>

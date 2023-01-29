@@ -6,6 +6,11 @@
     align-items: center;
 }
 
+.product-card button{
+    height: 40px;
+    width: 266px;
+}
+
 @media(min-width: 576px){
 
     .search-bar-zone{
@@ -14,3 +19,11 @@
     }
 
 }
+
+@media(min-width: 1280px){
+
+    .catalog-container{
+        padding: 0px 150px 30px 150px;
+    }
+}
+

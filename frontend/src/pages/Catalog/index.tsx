@@ -13,39 +13,39 @@ function Catalog() {
 
           <div className="row">
 
-          <div className="item col-sm-6 col-lg-4 col-xl-3">
+          <div className="item col-sm-6 col-lg-4 col-xl-4">
                 <ProductCard />
               </div>
             
-              <div className="item col-sm-6 col-lg-4 col-xl-3">
+              <div className="item col-sm-6 col-lg-4 col-xl-4">
                 <ProductCard />
               </div>
 
-              <div className="item col-sm-6 col-lg-4 col-xl-3">
+              <div className="item col-sm-6 col-lg-4 col-xl-4">
                 <ProductCard />
               </div>
 
-              <div className="item col-sm-6 col-lg-4 col-xl-3">
+              <div className="item col-sm-6 col-lg-4 col-xl-4">
                 <ProductCard />
               </div>
 
-              <div className="item col-sm-6 col-lg-4 col-xl-3">
+              <div className="item col-sm-6 col-lg-4 col-xl-4">
                 <ProductCard />
               </div>
 
-              <div className="item col-sm-6 col-lg-4 col-xl-3">
+              <div className="item col-sm-6 col-lg-4 col-xl-4">
                 <ProductCard />
               </div>
 
-              <div className="item col-sm-6 col-lg-4 col-xl-3">
+              <div className="item col-sm-6 col-lg-4 col-xl-4">
                 <ProductCard />
               </div>
 
-              <div className="item col-sm-6 col-lg-4 col-xl-3">
+              <div className="item col-sm-6 col-lg-4 col-xl-4">
                 <ProductCard />
               </div>
 
-              <div className="item col-sm-6 col-lg-4 col-xl-3">
+              <div className="item col-sm-6 col-lg-4 col-xl-4">
                 <ProductCard />
               </div>
 

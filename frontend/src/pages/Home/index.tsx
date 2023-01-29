@@ -1,5 +1,6 @@
 import { ReactComponent as CarImg} from 'assets/images/car-yellow.svg';
 import ButtonIcon from 'components/ButtonIcon';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 function Home() {
@@ -24,7 +25,9 @@ function Home() {
             <div className='base-card bottom-card'>
 
                 <div className='region-btn'>
-                    <ButtonIcon />
+                    <Link to="/products">
+                        <ButtonIcon />
+                    </Link>
                 </div>
                     
 

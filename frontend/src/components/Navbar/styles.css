@@ -54,4 +54,25 @@
     font-weight: 700;
 }
 
+@media(min-width: 768px){
+
+    .list-items{
+
+        margin-right: 10px;
+    }
+
+}
+
+@media(min-width: 1280px){
+
+    .list-items{
+        margin-right: 150px;
+    }
+
+    .logo-container{ 
+        margin-left: 150px;
+    }
+
+}
+
 

@@ -108,7 +108,36 @@
 
 }
 
-@media(min-width: 768px){
+@media(min-width: 992px){
 
+    .topper-card{
+        padding: 20px 100px;
+    }
 
+    .image-zone{
+        padding-bottom: 0;
+    }
+
+    .image-zone svg{
+        height: 272px;
+        width: 455px;
+    }
+
+    /* ----- */
+
+    .bottom-card{
+        justify-content: flex-start;
+    }
+
+    .text-zone-bottom{
+        padding-left: 15px;
+    }
+
+}
+
+@media(min-width: 1280px){
+
+    .home-container{
+        padding: 30px 150px 100px 150px;
+    }
 }
