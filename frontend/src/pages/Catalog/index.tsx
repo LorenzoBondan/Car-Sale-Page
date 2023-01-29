@@ -1,4 +1,6 @@
 import ProductCard from "components/ProductCard";
+import SearchButton from "components/SearchButton";
+import './styles.css';
 
 function Catalog() {
     return (
@@ -6,7 +8,7 @@ function Catalog() {
         <div className="catalog-container my-4">
 
           <div className="base-card search-bar-zone">
-            <button>botão de pesquisa</button>
+            <SearchButton />
           </div>
 
           <div className="row">
