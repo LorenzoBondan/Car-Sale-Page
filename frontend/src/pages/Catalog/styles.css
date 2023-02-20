@@ -9,6 +9,7 @@
 .product-card button{
     height: 40px;
     width: 266px;
+    font-family: 'Arial';
 }
 
 @media(min-width: 576px){
